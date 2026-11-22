@@ -1,0 +1,9 @@
+player={
+    "名字":"魔头",
+    "等级":48,
+    "攻击力":999
+}
+print(f"李逍遥:{player['名字']},等级:{player['等级']}")
+player["等级"]=49
+player["武器"]="火球术"
+print(player)
